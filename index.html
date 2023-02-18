@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>Bootstrap introduction</title>
+        <link href="css/bootstrap.min.css" type="text/css"  rel="stylesheet"/>
+        <link href="css/custom.css" type="text/css" rel = "stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="js/jquery.min.js" ></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="bg-dark">
+            <div class="container">
+              <nav class="navbar navbar-expand-sm bg-dark navbar-dark nav_style">
+                <!-- Brand -->
+                
+              
+                <ul class="navbar-nav">
+                <!-- Links -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">call us at 123456789</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">wish Lists</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gift Certificates</a>
+                </li>
+                  
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      AUD
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cart</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        </header>
+        <section id="titleCont">
+          <div class="jumbotron text-center">
+            <div class="container">
+              <div class="row">
+                <div class="offset-9 col-3">
+                  <input class="col-9 searchStyle" type="text" placeholder="Search">
+                  <span class="fa fa-search form-control-feedback offset-8 col-1"></span>
+                </div>
+                <h2 class="col-12">hipster</h2>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+       <section id="bottommenu">
+        <nav class="navbar navbar-expand-sm bg-bottomnav justify-content-center ">
+
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">APPAREL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LIFESTYLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ACCESSORIES</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOCUMENTATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+       </section>
+       <section id="caroselBanner">
+        <section class="container">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/style1.jpg" alt="Los Angeles">
+              </div>
+              <div class="carousel-item">
+                <img src="images/style4.jpg" alt="Chicago">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="images/style5.jpg" alt="New York">
+              </div>
+              <div class="carousel-item">
+                <img src="images/style6.jpg" alt="New York">
+              </div>
+            </div>
+          
+            
+          
+          </div>
+          <div class="col-12"> <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+        </section>
+        <section id="apparelCont">
+          <div class="container">
+            <div class="row contRow">
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-6"><img src="images/dress1.png" alt=""></div>
+                  <div class="col-6 catalogueCont">t-Shirts</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-6"><img src="images/dress2.png" alt=""></div>
+                  <div class="col-6 catalogueCont">Gowns</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-6"><img src="images/dress3.png" alt=""></div>
+                  <div class="col-6 catalogueCont">Formal Shirts</div>
+                </div>
+              </div>
+            </div>
+            <div class="row contRow">
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-6"><img src="images/dress4.png" alt=""></div>
+                  <div class="col-6 catalogueCont">Sarrees</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-6"><img src="images/dress5.png" alt=""></div>
+                  <div class="col-6 catalogueCont">Shoes</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-6"><img src="images/dress6.png" alt=""></div>
+                  <div class="col-6 catalogueCont">Pants</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+       </section>
+        
+    </body>
+</html>
